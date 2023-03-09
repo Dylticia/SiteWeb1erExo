@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactez-nous</title>
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <img
+        src="./ressourcesSiteDWWM/SiteDWWM/Images/logoT_AFPA.png"
+        alt="logo AFPA">
+      <nav>
+        <ul>
+          <li><a href="/index.html">Accueil</a></li>
+          <li><a href="/formation.html">La formation</a></li>
+          <li><a href="/temoignages.html">Témoignages</a></li>
+          <li><a href="/références.html">Références</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h3>Contactez-nous</h3>
+      <div class="conteneurform">
+        <div class="colonneform">
+          <p>
+            Afin de nous permetttre de vous apporter les renseignements
+            nécessaires, nous vous remercions de compléter les information
+          </p><br>
+          <form>
+            <div>
+              <label for="name">Nom:</label><br>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div>
+              <label for="surname">Prénom:</label><br>
+              <input type="text" id="surname" name="surname" required>
+            </div>
+            <div>
+              <label for="email">Votre adresse mail:</label><br>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+              <label for="phone">Votre téléphone:</label><br>
+              <input type="tel" id="phone" name="phone">
+            </div><br>
+            <div>
+              <label>Vous êtes:</label><br>
+              <input
+                type="radio"
+                id="dde_emploi"
+                name="status"
+                value="dde_emploi">
+              <label for="dde_emploi">Demandeur d'emploi</label>
+              <br>
+              <input type="radio" id="salarie" name="status" value="salarie">
+              <label for="salarie">Salarié en transition professionnelle</label>
+              <br>
+              <input type="radio" id="autre" name="status" value="autre">
+              <label for="autre">Autre</label>
+            </div>
+            <br>
+            <div>
+              <label>Vos modalités pédagogiques préfèrées:</label>
+              <br>
+              <input type="radio" id="centre" name="status" value="centre">
+              <label for="centre">En centre de formation (présentiel)</label>
+              <br>
+              <input
+                type="radio"
+                id="distance"
+                name="status"
+                value="distance">
+              <label for="distance">100% à distance</label>
+              <br>
+              <input type="radio" id="altern" name="status" value="altern">
+              <label for="altern"
+                >En contrat d'alternance avec l'entrepise</label
+              >
+              <br>
+              <input type="radio" id="other" name="status" value="other">
+              <label for="other">Pas de préférences</label>
+            </div>
+            <br>
+            <div>
+              <div class="boites"></div>
+              <label>Vous êtes résident de la région : </label>
+              <select name="Votre région">
+                <option value="">Choisissez votre région</option>
+                <option value="Auvergne-Rhône-Alpes">
+                  Auvergne-Rhône-Alpes
+                </option>
+                <option value="Bourgogne-Franche-Comté">
+                  Bourgogne-Franche-Comté
+                </option>
+                <option value="Bretagne">Bretagne</option>
+                <option value="Centre-Val de Loire">Centre-Val de Loire</option>
+                <option value="Corse">Corse</option>
+                <option value="Grand Est">Grand Est</option>
+                <option value="Hauts-de-France">Hauts-de-France</option>
+                <option value="Île-de-France">Île-de-France</option>
+                <option value="Normandie">Normandie</option>
+                <option value="Nouvelle-Aquitaine">Nouvelle-Aquitaine</option>
+                <option value="Occitanie">Occitanie</option>
+                <option value="Pays de la Loire">Pays de la Loire</option>
+                <option value="Provence-Alpes-Côte d'Azur">
+                  Provence-Alpes-Côte d'Azur
+                </option>
+                <option value="Guadeloupe">Guadeloupe</option>
+                <option value="Martinique">Martinique</option>
+                <option value="Guyane">Guyane</option>
+                <option value="La Réunion">La Réunion</option>
+                <option value="Mayotte">Mayotte</option>
+              </select>
+            </div>
+            <br>
+            <div>
+              <label for="message">Votre message:</label>
+              <br>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                cols="30"
+              ></textarea>
+            </div>
+            <br>
+             <button type="submit">Envoyer le questionnaire</button>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <h3><a href="/mentionsLegales.html">Mentions légales</a></h3>
+  </footer>
+  </body>
+</html>
